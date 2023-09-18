@@ -7,13 +7,10 @@ The included test file works with the attached datasets and outlines how to use 
 
 <b>Load the classifier with the data file information</b>
 <code>
-# Selecting labels from dataset
 data_file_name = "diabetes_prediction_dataset.csv"
 X_labels = ["age", "bmi", "HbA1c_level", "blood_glucose_level"]
 y_label = "diabetes"
 
-
-# Instantiate the classes
 bayes_class_1 = BayesClass(data_file_name, X_labels, y_label)
 </code>
 
