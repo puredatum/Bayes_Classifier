@@ -7,8 +7,7 @@ The included test file works with the attached datasets and outlines how to use 
 
 <b>Load the classifier with the data file information</b>
 
-<code>
-data_file_name = "diabetes_prediction_dataset.csv"
+<code>data_file_name = "diabetes_prediction_dataset.csv"
 X_labels = ["age", "bmi", "HbA1c_level", "blood_glucose_level"]
 y_label = "diabetes"
 </code>
@@ -16,22 +15,19 @@ y_label = "diabetes"
 
 <b>Instrantiate the classifier with the data information</b>
 
-<code>
-from Classifier_Module import BayesClass
+<code>from Classifier_Module import BayesClass
 bayes_class_1 = BayesClass(data_file_name, X_labels, y_label)
 </code>
 
 
 <b>Train the classifier</b>
 
-<code>
-bayes_class_1.train_algorithm()
+<code>bayes_class_1.train_algorithm()
 </code>
 
 
 <b>Make predictions and test them</b>
 
-<code>
-y_preds = bayes_class_1.predict(bayes_class_1.dataset.return_test_data())
+<code>y_preds = bayes_class_1.predict(bayes_class_1.dataset.return_test_data())
 print(bayes_class_1.test_accuracy(bayes_class_1.dataset.y_test, y_preds))
 </code>
