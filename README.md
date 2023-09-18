@@ -7,10 +7,9 @@ The included test file works with the attached datasets and outlines how to use 
 
 <b>Load the classifier with the data file information</b>
 
-<code>data_file_name = "diabetes_prediction_dataset.csv"
-X_labels = ["age", "bmi", "HbA1c_level", "blood_glucose_level"]
-y_label = "diabetes"
-</code>
+<code>data_file_name = "diabetes_prediction_dataset.csv"</code>
+<code>X_labels = ["age", "bmi", "HbA1c_level", "blood_glucose_level"]</code>
+<code>y_label = "diabetes"</code>
 
 
 <b>Instrantiate the classifier with the data information</b>
