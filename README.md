@@ -2,6 +2,8 @@
 ## Idea
 I wanted to make a Bayes Classifier in Python from scratch. The goal of this was simply to do it and to practice my coding. Always practice all the time.
 
+Blog Post link: https://ai-chad.com/2023/09/20/build-a-naive-bayes-classifier-in-python/
+
 ## Usage
 The included test file works with the attached datasets and outlines how to use the module.
 
